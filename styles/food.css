@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Poppins;
+}
+.container{
+    
+    background-color: #fff9ea;
+
+}
+.nav-container{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;  
+    height: 108px;
+}
+ul>li{
+    list-style: none;
+}
+.nav-ul{
+    display: flex;
+    gap: 30px;
+}
+.nav-btn{
+    background-color: #ffcb45;
+    border: none;
+    width: 120px;
+    height: 38px;
+    border-radius:20px ;
+    font-weight: 600;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* hero section style start */
+.hero-container{
+    background-image: url('../images/shapes.png');
+    height: 98vh;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-heading{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 21px;
+}
+.hero-para{
+    color: #615f5a;
+    margin-bottom: 23px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.food{
+    color: #ffcb45;
+}
+
+/* what we serve style */
+.what-we-serve-container{
+    margin-top:80px ;
+}
+.serve{
+    margin-top:32px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Popular menu */
+.popular-menu-container{
+    margin-top: 80px;
+}
+.menu-container{
+    margin-top: 32px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.menu-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px 10px 0 0;
+}
+.menu-image{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.menu-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 10px 20px;
+
+}
